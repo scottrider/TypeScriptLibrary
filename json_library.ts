@@ -1,5 +1,5 @@
-// import * as objectLib from "../libraries/ts_object_library";
-import * as stringLib from "../libraries/ts_string_library"; 
+// import * as objectLib from "object_library";
+import * as stringLib from "string_library"; 
 
 export const getFormDataJSON = (e: Event): Record<string, string | number> => {
   e.preventDefault();
