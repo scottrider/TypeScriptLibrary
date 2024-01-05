@@ -1,4 +1,4 @@
-import * as jsonLib from "ts_json_library"; 
+import * as jsonLib from "json_library"; 
 
 export const getRemoteDataAsync = async (path: string) => {
   let result: any = {};
