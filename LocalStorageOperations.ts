@@ -1,6 +1,6 @@
 import "./StringOperations"
 
-class LocalStorageOperations {
+export class LocalStorageOperations {
     constructor() {
         // Constructor can be left empty or used for initializations.
     }
